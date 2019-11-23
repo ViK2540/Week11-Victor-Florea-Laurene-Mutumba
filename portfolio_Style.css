@@ -1,0 +1,83 @@
+/**/
+*{
+	box-sizing: border-box;
+}
+body{
+	background-color:#f1f1f1;
+	padding: 20px;
+	font-family: Arial;
+}
+.navUl{
+	list-style-type:none;
+	margin: 0;
+	padding:0;
+	overflow: hidden;
+	background-color: #333;
+}
+.navLi{
+	float:left;
+	border-right:1px solid #bbb;
+	width:50%;
+}
+
+.navLi a{
+	display:block;
+	color:white;
+	text-align:center;
+	padding:14px 16px;
+	text-decoration:none;
+}
+
+.active{
+	background-color: #4CAF50;
+}
+
+.main{
+	max-width: 1000px;
+	margin: auto;
+}
+h1{
+	font-size:50px;
+	word-break:break-all;/*????*/				
+}
+.row{
+	margin:8px -16px;/*????*/
+}
+/*Add padding between each column*/
+.row,
+.row > .column {
+	padding: 8px;
+}
+
+/*Create four equal columns that floats next to each other*/
+.column{
+	float: left;
+	width: 33%;		
+}
+/*Clear float after each rows*/
+.row:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+/*Content*/
+.content{
+	background-color:white;
+	padding:10px;
+	height:480px;
+}
+#conclusion {
+	padding-left:350px ;
+	
+}
+.logo{
+	height:50px;
+	width:50px;
+}
+#logos{
+	margin:100px ;
+	height:50px;
+	background-color:#f1f1f1;
+	padding-left:200px ;
+}
+
